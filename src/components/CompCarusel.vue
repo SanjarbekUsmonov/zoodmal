@@ -22,7 +22,6 @@
 <script>
 import { ref } from 'vue'
 
-
 export default {
   props:['massage'],
   setup () {
