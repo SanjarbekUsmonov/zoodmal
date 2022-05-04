@@ -10,39 +10,130 @@
                   <q-btn flat style="color: #333" class="text-overline" label="Erkaklar kiyimlari" to="/erkaklar" />
               </div>
               <div>
-                  <q-btn flat style="color: #333" class="text-overline" label="Telefonlar va aksessuarlar" />
+                  <q-btn flat style="color: #333" class="text-overline" label="Telefonlar va aksessuarlar" to="/telefonlar"/>
               </div>
               <div>
-                  <q-btn flat style="color: #333" class="text-overline" label="Kompyuter va ofis" />
+                  <q-btn flat style="color: #333" class="text-overline" label="Kompyuter va ofis" to="/kompyuter"/>
               </div>
               <div>
-                  <q-btn flat style="color: #333" class="text-overline" label="Maishiy elektronika" />
+                  <q-btn flat style="color: #333" class="text-overline" label="Maishiy elektronika" to="maishiy"/>
               </div>
            </div>
-            <CompAyollar/>
+            <CompAyollar :content="carts2" :com="starts2"/>
+            <CompText/>
+            <div class="foter">
+
+            </div>
         </div>
      </div>
   </div>
 </template>
 <script>
 import CompAyollar from "../components/CompAyollar";
+import CompText from "src/components/CompText.vue";
 export default {
-    components: {
-     CompAyollar
+  data() {
+    return {
+       starts2:[
+          {text:'Ayollar kiyimlari'}
+          ],
+          carts2:[
+            {src:'https://zoodmall.com/cdn-cgi/image/w=500,fit=contain,f=auto/https://upload.zoodmall.com/web/product/picture/93/20044993/164562791387247500176.jpeg',
+            text:' Ayyollar uchun dvoyka bejeviy ran...',
+            sena:' UZS 690,000',
+            mark:'UZS 172,500',
+            span:'x4',
+            img:'https://images.zoodmall.uz/app/appImages/UZ.png'},
+            {src:'https://zoodmall.com/cdn-cgi/image/w=500,fit=contain,f=auto/https://upload.zoodmall.com/web/product/picture/93/20044993/164562791387247500176.jpeg',
+            text:' Ayyollar uchun dvoyka bejeviy ran...',
+            sena:' UZS 690,000',
+            mark:'UZS 172,500',
+            span:'x4',
+            img:'https://images.zoodmall.uz/app/appImages/UZ.png'},
+            {src:'https://zoodmall.com/cdn-cgi/image/w=500,fit=contain,f=auto/https://upload.zoodmall.com/web/product/picture/93/20044993/164562791387247500176.jpeg',
+            text:' Ayyollar uchun dvoyka bejeviy ran...',
+            sena:' UZS 690,000',
+            mark:'UZS 172,500',
+            span:'x4',
+            img:'https://images.zoodmall.uz/app/appImages/UZ.png'},
+            {src:'https://zoodmall.com/cdn-cgi/image/w=500,fit=contain,f=auto/https://upload.zoodmall.com/web/product/picture/93/20044993/164562791387247500176.jpeg',
+            text:' Ayyollar uchun dvoyka bejeviy ran...',
+            sena:' UZS 690,000',
+            mark:'UZS 172,500',
+            span:'x4',
+            img:'https://images.zoodmall.uz/app/appImages/UZ.png'},
+            {src:'https://zoodmall.com/cdn-cgi/image/w=500,fit=contain,f=auto/https://upload.zoodmall.com/web/product/picture/93/20044993/164562791387247500176.jpeg',
+            text:' Ayyollar uchun dvoyka bejeviy ran...',
+            sena:' UZS 690,000',
+            mark:'UZS 172,500',
+            span:'x4',
+            img:'https://images.zoodmall.uz/app/appImages/UZ.png'},{src:'https://zoodmall.com/cdn-cgi/image/w=500,fit=contain,f=auto/https://upload.zoodmall.com/web/product/picture/93/20044993/164562791387247500176.jpeg',
+            text:' Ayyollar uchun dvoyka bejeviy ran...',
+            sena:' UZS 690,000',
+            mark:'UZS 172,500',
+            span:'x4',
+            img:'https://images.zoodmall.uz/app/appImages/UZ.png'},
+            {src:'https://zoodmall.com/cdn-cgi/image/w=500,fit=contain,f=auto/https://upload.zoodmall.com/web/product/picture/93/20044993/164562791387247500176.jpeg',
+            text:' Ayyollar uchun dvoyka bejeviy ran...',
+            sena:' UZS 690,000',
+            mark:'UZS 172,500',
+            span:'x4',
+            img:'https://images.zoodmall.uz/app/appImages/UZ.png'},
+            {src:'https://zoodmall.com/cdn-cgi/image/w=500,fit=contain,f=auto/https://upload.zoodmall.com/web/product/picture/93/20044993/164562791387247500176.jpeg',
+            text:' Ayyollar uchun dvoyka bejeviy ran...',
+            sena:' UZS 690,000',
+            mark:'UZS 172,500',
+            span:'x4',
+            img:'https://images.zoodmall.uz/app/appImages/UZ.png'},
+            {src:'https://zoodmall.com/cdn-cgi/image/w=500,fit=contain,f=auto/https://upload.zoodmall.com/web/product/picture/93/20044993/164562791387247500176.jpeg',
+            text:' Ayyollar uchun dvoyka bejeviy ran...',
+            sena:' UZS 690,000',
+            mark:'UZS 172,500',
+            span:'x4',
+            img:'https://images.zoodmall.uz/app/appImages/UZ.png'},
+            {src:'https://zoodmall.com/cdn-cgi/image/w=500,fit=contain,f=auto/https://upload.zoodmall.com/web/product/picture/93/20044993/164562791387247500176.jpeg',
+            text:' Ayyollar uchun dvoyka bejeviy ran...',
+            sena:' UZS 690,000',
+            mark:'UZS 172,500',
+            span:'x4',
+            img:'https://images.zoodmall.uz/app/appImages/UZ.png'},
+            {src:'https://zoodmall.com/cdn-cgi/image/w=500,fit=contain,f=auto/https://upload.zoodmall.com/web/product/picture/93/20044993/164562791387247500176.jpeg',
+            text:' Ayyollar uchun dvoyka bejeviy ran...',
+            sena:' UZS 690,000',
+            mark:'UZS 172,500',
+            span:'x4',
+            img:'https://images.zoodmall.uz/app/appImages/UZ.png'},
+            {src:'https://zoodmall.com/cdn-cgi/image/w=500,fit=contain,f=auto/https://upload.zoodmall.com/web/product/picture/93/20044993/164562791387247500176.jpeg',
+            text:' Ayyollar uchun dvoyka bejeviy ran...',
+            sena:' UZS 690,000',
+            mark:'UZS 172,500',
+            span:'x4',
+            img:'https://images.zoodmall.uz/app/appImages/UZ.png'},
+
+          ]
     }
+  },
+    components: {
+    CompAyollar,
+    CompText
+}
 }
 </script>
 <style scoped>
 .container{
   width: 100%;
-  height: 1300px;
+  height: auto;
 }
 .content{
   width: 70%;
-  height: 1300px;
+  height: auto;
 }
 .row{
  width:100%;
  height: 70px;
+}
+.foter{
+  width: 100px;
+  height: 70px;
 }
 </style>

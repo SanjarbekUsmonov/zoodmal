@@ -10,16 +10,16 @@
                   <q-btn flat style="color: #333" class="text-overline" label="Erkaklar kiyimlari" to="/erkaklar" />
               </div>
               <div>
-                  <q-btn flat style="color: #333" class="text-overline" label="Telefonlar va aksessuarlar" to="/telefonlar" />
+                  <q-btn flat style="color: #333" class="text-overline" label="Telefonlar va aksessuarlar" to="/telefonlar"/>
               </div>
               <div>
                   <q-btn flat style="color: #333" class="text-overline" label="Kompyuter va ofis" to="/kompyuter"/>
               </div>
               <div>
-                  <q-btn flat style="color: #333" class="text-overline" label="Maishiy elektronika" to="/maishiy"/>
+                  <q-btn flat style="color: #333" class="text-overline" label="Maishiy elektronika" to="maishiy"/>
               </div>
            </div>
-            <CompAyollar :content="carts1" :com="starts1"/>
+            <CompAyollar :content="carts5" :com="starts5"/>
             <CompText/>
             <div class="foter">
 
@@ -34,10 +34,10 @@ import CompText from "src/components/CompText.vue";
 export default {
   data() {
     return {
-        starts1:[
+       starts5:[
           {text:'Ayollar kiyimlari'}
           ],
-          carts1:[
+          carts5:[
             {src:'https://zoodmall.com/cdn-cgi/image/w=500,fit=contain,f=auto/https://upload.zoodmall.com/web/product/picture/93/20044993/164562791387247500176.jpeg',
             text:' Ayyollar uchun dvoyka bejeviy ran...',
             sena:' UZS 690,000',

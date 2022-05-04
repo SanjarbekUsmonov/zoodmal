@@ -11,13 +11,13 @@
                   <q-btn flat style="color: #333" class="text-overline" label="Erkaklar kiyimlari" to="/erkaklar" />
               </div>
               <div>
-                  <q-btn flat style="color: #333" class="text-overline" label="Telefonlar va aksessuarlar" />
+                  <q-btn flat style="color: #333" class="text-overline" label="Telefonlar va aksessuarlar" to="/telefonlar"/>
               </div>
               <div>
-                  <q-btn flat style="color: #333" class="text-overline" label="Kompyuter va ofis" />
+                  <q-btn flat style="color: #333" class="text-overline" label="Kompyuter va ofis" to="/kopmyuter"/>
               </div>
               <div>
-                  <q-btn flat style="color: #333" class="text-overline" label="Maishiy elektronika" />
+                  <q-btn flat style="color: #333" class="text-overline" label="Maishiy elektronika" to="/maishiy"/>
               </div>
           </div>
         <!--buttonlar uchun div tugashi-->
