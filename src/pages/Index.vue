@@ -8,7 +8,7 @@
                   <q-btn flat style="color: #333" class="text-overline" label="Ayollar kiyimlari" to="/ayollar"/>
               </div>
               <div>
-                  <q-btn flat style="color: #333" class="text-overline" label="Erkaklar kiyimlari" />
+                  <q-btn flat style="color: #333" class="text-overline" label="Erkaklar kiyimlari" to="/erkaklar" />
               </div>
               <div>
                   <q-btn flat style="color: #333" class="text-overline" label="Telefonlar va aksessuarlar" />
