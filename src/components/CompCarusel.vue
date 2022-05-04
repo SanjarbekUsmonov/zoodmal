@@ -12,7 +12,11 @@
       @mouseenter="autoplay = false"
       @mouseleave="autoplay = true"
     >
-      <q-carousel-slide v-for="cars in massage" :key="cars.index" :name="cars.names" :img-src="cars.img" />
+      <q-carousel-slide
+      v-for="cars in massage"
+      :key="cars.index"
+      :name="cars.names"
+      :img-src="cars.img" />
 
     </q-carousel>
   </div>
