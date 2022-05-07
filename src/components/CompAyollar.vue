@@ -8,7 +8,7 @@
         </div>
     </div>
 
-    <div class="container bg-grey   row wrap justify-around items-start content-start " >
+    <div class="container bg-grey-1   row wrap justify-around items-start content-start " >
         <div class="big-cart q-mt-md"
           v-for="carts in content"
           :key="carts.index">
