@@ -10,6 +10,7 @@ const routes = [
       { path: '/telefonlar', component: () => import('pages/Telefonlar.vue') },
       { path: '/kompyuter', component: () => import('pages/Kompyuter.vue') },
       { path: '/maishiy', component: () => import('pages/Maishiy.vue') },
+      { path: '/narxlar', component: () => import('pages/Narxlar.vue') },
 
     ]
   },
