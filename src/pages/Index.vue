@@ -1,7 +1,10 @@
 <template >
   <div>
      <div class="bg-grey-1 fit row  justify-center items-center content-center"> <!--katta div-->
-        <div class="bg-grey-1" >  <!--O'rta qismdagi div-->
+        <div class="bg-grey-1 q-mt-md" >  <!--O'rta qismdagi div-->
+             <div>
+                 <q-btn color="primary" label="Zoodmall" to="/index"/>
+              </div>
          <!--buttonlar uchun div boshlanishi-->
           <div style="width:100%;height:70px" class=" row  justify-around items-center content-center ">
               <div>

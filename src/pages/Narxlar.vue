@@ -5,7 +5,7 @@
               <div>
                  <q-btn color="primary" label="Zoodmall" to="/index"/>  <span class="text-h7 text-grey"> / Kopmpyuter va ofis</span>
               </div>
-            <div style="width:100%;height:70px" class=" row  justify-around items-center content-center ">
+            <div  class=" row  justify-around items-center content-center ">
               <div>
                   <q-btn flat style="color: #333" class="text-overline" label="Ayollar kiyimlari" to="/ayollar"/>
               </div>
@@ -23,12 +23,11 @@
               </div>
            </div>
 
-           <div class="section bg-grey">
+           <div class="section  row  justify-between items-start content-start">
               <CompNarxlar/>
               <CompNarxlar2/>
            </div>
 
-            <!-- <CompText/> buni keyin aktiv qil -->
             <div class="foter">
 
             </div>
@@ -37,8 +36,8 @@
   </div>
 </template>
 <script>
-import CompNarxlar from 'src/components/CompNarxlar.vue'
-import CompNarxlar2 from 'src/components/CompNarxlar2.vue'
+import CompNarxlar from 'src/components/CompNarxlar'
+import CompNarxlar2 from 'src/components/CompNarxlar2'
 export default {
   components: { CompNarxlar, CompNarxlar2 },
 
@@ -48,11 +47,11 @@ export default {
 <style scoped>
 .container{
   width: 100%;
-  height: 2000px;
+  height: auto;
 }
 .content{
   width: 70%;
-  height: 2000px;
+  height: auto;
 }
 .row{
  width:100%;
@@ -64,6 +63,7 @@ export default {
 }
 .section{
   width: 100%;
-  height: 700px;
+  height: auto;
+
 }
 </style>
