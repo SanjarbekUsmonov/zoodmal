@@ -1,12 +1,5 @@
 <template >
   <div>
-
-
-
-
-
-
-
       <div class="container fit row  justify-center items-center content-center bg-grey-1">
         <div class="content bg-grey-1 q-mt-md">
               <div>
