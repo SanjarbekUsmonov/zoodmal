@@ -38,11 +38,11 @@
 <script>
 import CompNarxlar from 'src/components/CompNarxlar'
 import CompNarxlar2 from 'src/components/CompNarxlar2'
-export default {
+export default ({
   components: { CompNarxlar, CompNarxlar2 },
 
 
-}
+})
 </script>
 <style scoped>
 .container{
