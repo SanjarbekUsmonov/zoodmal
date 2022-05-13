@@ -1,6 +1,5 @@
 {
   "compilerOptions": {
-    "experimentalShamefullySupportOptionsApi": true,
     "baseUrl": ".",
     "paths": {
       "src/*": [
@@ -27,11 +26,15 @@
       "vue$": [
         "node_modules/vue/dist/vue.runtime.esm-bundler.js"
       ]
-    }
+    },
+    "experimentalShamefullySupportOptionsApi": true,
+
   },
   "exclude": [
     "dist",
     ".quasar",
     "node_modules"
-  ]
+  ],
+      "experimentalShamefullySupportOptionsApi": true,
+
 }

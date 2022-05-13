@@ -3,7 +3,7 @@
       <div class="container fit row  justify-center items-center content-center bg-grey-1">
         <div class="content bg-grey-1 q-mt-md">
               <div>
-                 <q-btn color="primary" label="Zoodmall" to="/index"/>  <span class="text-h7 text-grey"> / Kopmpyuter va ofis</span>
+                 <q-btn color="primary" label="Zoodmall" to="/"/>  <span class="text-h7 text-grey"> / Kopmpyuter va ofis</span>
               </div>
             <div  class=" row  justify-around items-center content-center ">
               <div>

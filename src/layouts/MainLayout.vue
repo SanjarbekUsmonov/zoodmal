@@ -43,8 +43,6 @@
                  </div>
             </div>
           </div>
-
-
     </q-header>
 
     <q-page-container>

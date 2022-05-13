@@ -56,18 +56,12 @@
                <q-btn  class="q-ml-md" text-color="dark" padding="15px 32px" color="yellow" label="HOZIROQ HARID QILISH 4,799,000" />
            </div>
         </div>
-        <div>
-          <q-img src="">
 
-          </q-img>
-        </div>
     </div>
   </div>
 </template>
 <script>
-export default {
 
-}
 </script>
 <style scoped>
 .container{
