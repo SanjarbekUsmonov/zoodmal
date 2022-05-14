@@ -17,9 +17,7 @@
                     v-model="search"
                     debounce="500"
                     filled
-                    placeholder="Search"
-
-                  >
+                    placeholder="Search">
                     <template v-slot:append>
                       <q-icon name="search" />
                     </template>

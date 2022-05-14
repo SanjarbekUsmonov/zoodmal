@@ -1,28 +1,15 @@
 <template >
   <div>
-     <div class="bg-grey-1 fit row  justify-center items-center content-center"> <!--katta div-->
-        <div class="bg-grey-1 q-mt-md" >  <!--O'rta qismdagi div-->
-             <div>
+     <div class="bg-grey-1 fit row  justify-center items-center content-center">
+        <div class="bg-grey-1 q-mt-md" >
                  <q-btn color="primary" label="Zoodmall" to="/"/>
-              </div>
-         <!--buttonlar uchun div boshlanishi-->
-          <div style="width:100%;height:70px" class=" row  justify-around items-center content-center ">
-              <div>
-                  <q-btn flat style="color: #333" class="text-overline" label="Ayollar kiyimlari" to="/ayollar"/>
-              </div>
-              <div>
-                  <q-btn flat style="color: #333" class="text-overline" label="Erkaklar kiyimlari" to="/erkaklar" />
-              </div>
-              <div>
-                  <q-btn flat style="color: #333" class="text-overline" label="Telefonlar va aksessuarlar" to="/telefonlar"/>
-              </div>
-              <div>
-                  <q-btn flat style="color: #333" class="text-overline" label="Kompyuter va ofis" to="/kopmyuter"/>
-              </div>
-              <div>
-                  <q-btn flat style="color: #333" class="text-overline" label="Maishiy elektronika" to="/maishiy"/>
-              </div>
-          </div>
+            <div style="width:100%;height:70px" class=" row  justify-around items-center content-center ">
+                <q-btn flat style="color: #333" class="text-overline" label="Ayollar kiyimlari" to="/ayollar"/>
+                <q-btn flat style="color: #333" class="text-overline" label="Erkaklar kiyimlari" to="/erkaklar" />
+                <q-btn flat style="color: #333" class="text-overline" label="Telefonlar va aksessuarlar" to="/telefonlar"/>
+                <q-btn flat style="color: #333" class="text-overline" label="Kompyuter va ofis" to="/kompyuter"/>
+               <q-btn flat style="color: #333" class="text-overline" label="Maishiy elektronika" to="/maishiy"/>
+            </div>
         <!--buttonlar uchun div tugashi-->
                <comp-carusel :massage="cars1"/>
                <comp-foto class="q-mt-xl"/>
@@ -36,10 +23,8 @@
                <comp-carusel class="q-mt-lg" :massage="cars2"/>
                <CompKichikCart :div="contents2" :com="fotos2"/>
                <CompText/>
-
-
-      </div>  <!--O'rta qismdagi div tugashi-->
- </div>  <!--katta div tugashi-->
+         </div>
+      </div>
 
   </div>
 </template>
@@ -144,7 +129,7 @@ export default {
 }
 .fit{
   width: 100%;
-  height: 10000px;
+  height: auto;
 }
 .bg-grey-1{
  width:80%;

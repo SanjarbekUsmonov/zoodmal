@@ -2,26 +2,14 @@
   <div>
       <div class="container fit row  justify-center items-center content-center bg-grey-1">
         <div class="content bg-grey-1 q-mt-md">
-              <div>
-                 <q-btn color="primary" label="Zoodmall" to="/index"/>  <span class="text-h7 text-grey"> / Erkaklar kiyimlari</span>
-              </div>
+                 <q-btn color="primary" label="Zoodmall" to="/"/>  <span class="text-h7 text-grey"> / Erkaklar kiyimlari</span>
             <div style="width:100%;height:70px" class=" row  justify-around items-center content-center ">
-              <div>
-                  <q-btn flat style="color: #333" class="text-overline" label="Ayollar kiyimlari" to="/ayollar"/>
-              </div>
-              <div>
-                  <q-btn flat style="color: #333" class="text-overline" label="Erkaklar kiyimlari" to="/erkaklar" />
-              </div>
-              <div>
-                  <q-btn flat style="color: #333" class="text-overline" label="Telefonlar va aksessuarlar" to="/telefonlar"/>
-              </div>
-              <div>
-                  <q-btn flat style="color: #333" class="text-overline" label="Kompyuter va ofis" to="/kompyuter"/>
-              </div>
-              <div>
-                  <q-btn flat style="color: #333" class="text-overline" label="Maishiy elektronika" to="maishiy"/>
-              </div>
-           </div>
+                 <q-btn flat style="color: #333" class="text-overline" label="Ayollar kiyimlari" to="/ayollar"/>
+                 <q-btn flat style="color: #333" class="text-overline" label="Erkaklar kiyimlari" to="/erkaklar" />
+                 <q-btn flat style="color: #333" class="text-overline" label="Telefonlar va aksessuarlar" to="/telefonlar"/>
+                 <q-btn flat style="color: #333" class="text-overline" label="Kompyuter va ofis" to="/kompyuter"/>
+                 <q-btn flat style="color: #333" class="text-overline" label="Maishiy elektronika" to="maishiy"/>
+            </div>
             <CompAyollar :content="carts2" :com="starts2"/>
             <CompText/>
             <div class="foter">
@@ -128,7 +116,7 @@ export default {
   height: auto;
 }
 .content{
-  width: 70%;
+  width: 80%;
   height: auto;
 }
 .row{
